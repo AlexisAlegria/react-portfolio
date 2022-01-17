@@ -1,37 +1,55 @@
 import "./works.scss";
 
 export default function Works() {
-
-    const data = [
-        {
-            
-        }
-
-    ]
+  const data = [
+    {
+      id: "1",
+      icon: "./assets/cell-phone.png",
+      title: "Web Design",
+      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      img: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+    },
+    {
+      id: "2",
+      icon: "./assets/internet.png",
+      title: "Mobile Application",
+      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      img: "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+    },
+    {
+      id: "3",
+      icon: "./assets/brand.png",
+      title: "Branding",
+      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+    },
+  ];
 
   return (
     <div className="works" id="works">
       <div className="slider">
-        <div className="container">
-          <div className="item">
-            <div className="left">
-              <div className="leftContainer">
-                <div className="imgContainer">
-                  <img src="./assets/cell-phone.png" alt="cell-phone"/>
+        {data.map((d) => (
+          <div className="container">
+            <div className="item">
+              <div className="left">
+                <div className="leftContainer">
+                  <div className="imgContainer">
+                    <img src={d.icon} alt="cell-phone" />
+                  </div>
+                  <h1>{d.title}</h1>
+                  <p>{d.desc}</p>
+                  <span>Projects</span>
                 </div>
-                <h1>Title</h1>
-                <p>Lorem ipsum dolor</p>
-                <span>Projects</span>
+              </div>
+              <div className="right">
+                <img src={d.img} alt="dogs" />
               </div>
             </div>
-            <div className="right">
-              <img src="./assets/three-little-dogs.jpg" alt="dogs"/>
-            </div>
           </div>
-        </div>
+        ))}
+        <img src="./assets/arrow.png" className="arrow left" alt="arrow" />
+        <img src="./assets/arrow.png" className="arrow right" alt="arrow" />
       </div>
-      <img src="./assets/arrow.png" className="arrow left" alt="arrow" />
-      <img src="./assets/arrow.png" className="arrow right" alt="arrow" />
     </div>
   );
 }
