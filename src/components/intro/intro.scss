@@ -1,6 +1,13 @@
+@import "../../global.scss";
+
 .intro {
     background-color: white;
     display: flex;
+
+    @include mobile {
+        flex-direction: column;
+        align-items: center;
+    }
     
     .left {
         flex: 0.5;
@@ -10,13 +17,19 @@
         .imgContainer {
             display: flex;
             justify-content: center;
-            align-items: center;
+            // align-items:flex-end;
+            
             
             .rounded {
-                height: 500px;
                 width: 500px;
+                height: 500px;
                 object-fit: cover;
                 border-radius: 50%;
+
+                @include mobile{
+                    width: 275px;
+                    height: 275px;
+                }
             }
         }
         
@@ -32,16 +45,34 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: flex-start;
+
+            @include mobile {
+                width: 260px;
+                padding-left: 0px;
+            }
             
             h1{
-                font-size: 60px;
+                font-size: 3em;
                 margin: 10px 0;
+                @include mobile {
+                    font-size: 2em;
+                    margin: 10px 0;
+                }
             }
             h2{
-                font-size: 35px;
+                font-size: 2em;
+                @include mobile {
+                    font-size: 1.5em;
+                    margin: 7px 0;
+                }
             }
             h3{
-                font-size: 30px;
+                font-size: 2em;
+                @include mobile {
+                    font-size: 1.5em;
+                    margin: 7px 0;
+                }
             }
             span {
                 color: #c1121f;
@@ -52,6 +83,10 @@
             position: absolute;
             bottom: 10px;
             left: 30%;
+
+            @include mobile {
+                left: 40%;
+            }
 
             img{
                 width: 60px;
