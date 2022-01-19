@@ -28,13 +28,17 @@
         margin-left: 40px;
       }
 
+      .welcome{
+        color: #c1121f;
+      }
+
       .itemContainer {
         display: flex;
         align-items: center;
         margin-left: 30px;
 
         @include mobile{
-          
+          display: none;
         }
 
         .icon {
@@ -66,6 +70,14 @@
     background-color: $mainColor;
     color: #fff;
 
+    .wrapper {
+      .left {
+        .welcome {
+          color: royalblue;
+        }
+
+      }
+    }
     .hamburger {
       span {
         &:first-child {

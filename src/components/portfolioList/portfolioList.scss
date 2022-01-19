@@ -2,9 +2,10 @@
 
 .portfolioList {
     font-size: 15px;
-    margin-right: 50px;
+    margin: 10px 0;
     padding: 10px 15px;
     border-radius: 10px;
+    text-align: center;
     cursor: pointer;
 
     &.active {
