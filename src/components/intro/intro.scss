@@ -10,12 +10,12 @@
     }
     
     .left {
-        flex: 0.5;
+        flex: 0.6;
         overflow: hidden;
         margin: auto;
 
         @include mobile{
-            width: 290px;
+            width: 320px;
             
         }
 
@@ -33,15 +33,15 @@
                 border-radius: 50%;
 
                 @include mobile{
-                    width: 285px;
-                    height: 285px;
+                    width: 320px;
+                    height: 320px;
                 }
             }
         }
         
     }
     .right {
-        flex: 0.5;
+        flex: 0.4;
         position: relative;
         
         .wrapper {
@@ -56,7 +56,7 @@
             @include mobile {
                 
                 justify-content:start;
-                width: 260px;
+                width: 320px;
                 padding-left: 0px;
             }
             
@@ -64,7 +64,7 @@
                 font-size: 3em;
                 margin: 10px 0;
                 @include mobile {
-                    font-size: 2em;
+                    font-size: 3em;
                     margin: 4px 0;
                 }
             }
@@ -72,14 +72,14 @@
                 font-size: 2em;
                 @include mobile {
                     font-size: 1.5em;
-                    margin: 50px 0 4px 0;
+                    margin: 0px 0 4px 0;
                 }
             }
             h3{
                 font-size: 2em;
                 @include mobile {
                     font-size: 1.5em;
-                    margin: 4px 0;
+                    margin: 8px 0;
                 }
             }
             span {
