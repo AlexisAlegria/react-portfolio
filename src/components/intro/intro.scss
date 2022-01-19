@@ -14,9 +14,15 @@
         overflow: hidden;
         margin: auto;
 
+        @include mobile{
+            width: 290px;
+            
+        }
+
         .imgContainer {
             display: flex;
             justify-content: center;
+            margin-top: 10px;
             // align-items:flex-end;
             
             
@@ -27,8 +33,8 @@
                 border-radius: 50%;
 
                 @include mobile{
-                    width: 275px;
-                    height: 275px;
+                    width: 285px;
+                    height: 285px;
                 }
             }
         }
@@ -48,6 +54,8 @@
             align-items: flex-start;
 
             @include mobile {
+                
+                justify-content:start;
                 width: 260px;
                 padding-left: 0px;
             }
@@ -57,21 +65,21 @@
                 margin: 10px 0;
                 @include mobile {
                     font-size: 2em;
-                    margin: 10px 0;
+                    margin: 4px 0;
                 }
             }
             h2{
                 font-size: 2em;
                 @include mobile {
                     font-size: 1.5em;
-                    margin: 7px 0;
+                    margin: 50px 0 4px 0;
                 }
             }
             h3{
                 font-size: 2em;
                 @include mobile {
                     font-size: 1.5em;
-                    margin: 7px 0;
+                    margin: 4px 0;
                 }
             }
             span {
