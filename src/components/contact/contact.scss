@@ -1,6 +1,12 @@
+@import "../../global.scss";
+
 .contact {
     background-color: lightblue;
     display: flex;
+
+    @include mobile {
+        flex-direction: column;
+    }
 
     .left{
         flex: 1;
@@ -10,6 +16,11 @@
         justify-content: center;
         padding-bottom: 5%;
 
+        @include mobile {
+            flex: 0.6;
+            padding-bottom: 0;
+        }
+
         img{
             height: 40%;
         }
@@ -18,10 +29,21 @@
         flex: 1;
         display: flex;
         flex-direction: column;
-        align-items:flex-start;
-        justify-content:center;
+        align-items: flex-start;
+        justify-content: center;
 
-        form{
+        h1 {
+            @include mobile {
+                font-size: 35px;
+            }
+        }
+
+        @include mobile {
+            flex: 1.4;
+            align-items: center;
+        }
+
+        form {
             width: 70%;
             height: 70%;
             display: flex;
@@ -29,6 +51,12 @@
             align-items: flex-start;
             margin-top: 15px;
             
+            @include mobile {
+                width: 90%;
+                height: 90%;
+                align-items: center;
+                margin: 0;
+            }
 
             input{
                 width: 300px;
@@ -36,17 +64,22 @@
                 font-size: 15px;
                 border-radius: 10px;
                 margin-top: 15px;
-                padding: 5px;
+                padding: 5px 10px;
                 border: 1px solid gray;
+
+                @include mobile {
+                    margin-top: 10px;
+                    height: 30px;
+                }
             }
 
             textarea {
                 width: 300px;
-                height: 200px;
+                height: 180px;
                 font-size: 15px;
                 border-radius: 10px;
                 margin-top: 15px;
-                padding: 5px;
+                padding: 10px 10px;
                 border: 1px solid gray;
             }
 
@@ -60,6 +93,10 @@
                 font-weight: 600;
                 cursor: pointer;
                 margin-top: 15px;
+
+                @include mobile {
+                    height: 40px;
+                }
             }
 
             span{
