@@ -14,18 +14,27 @@
     border-radius: 50%;
     cursor: pointer;
 
-    @include mobile {
-      display: none;
-    }
+    // @include mobile {
+    //   display: none;
+    // }
 
     &.left {
       top: 50%;
       left: 10%;
       transform: rotateY(180deg);
+
+      @include mobile {
+        top: 85%;
+      }
     }
     &.right {
       top: 50%;
       left: 85%;
+
+      @include mobile {
+        top: 85%;
+        left: 75%;
+      }
     }
   }
 
@@ -34,7 +43,12 @@
     display: flex;
     position: absolute;
     left: 0;
-    transition: all 1s ease-out ;
+    transition: all 1s ease-out;
+
+    @include mobile {
+      height: 470px;
+      top: 3%;
+    }
 
     .container {
       width: 100vw;
@@ -50,6 +64,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        @include mobile {
+          width: 90vw;
+        }
 
         .left {
           flex: 4;
