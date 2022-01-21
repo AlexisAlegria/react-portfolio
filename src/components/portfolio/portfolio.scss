@@ -10,7 +10,8 @@
     font-size: 50px;
 
     @include mobile {
-      font-size: 20px;
+      margin-top: 60px;
+      font-size: 30px;
     }
   }
 
