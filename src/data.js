@@ -21,7 +21,7 @@ export const featuredPortfolio = [
     id: 4,
     title: "Available Box",
     img: "./assets/bank-itau.png",
-    url: "https://google.com"
+    url: "https://heroku.com"
   }
 ];
 
