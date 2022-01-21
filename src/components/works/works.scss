@@ -14,10 +14,6 @@
     border-radius: 50%;
     cursor: pointer;
 
-    // @include mobile {
-    //   display: none;
-    // }
-
     &.left {
       top: 50%;
       left: 10%;
@@ -47,7 +43,7 @@
 
     @include mobile {
       height: 470px;
-      top: 3%;
+      top: 12%;
     }
 
     .container {
@@ -107,7 +103,6 @@
               @include mobile {
                 width: 30px;
                 height: 30px;
-                
               }
             }
             h1 {
