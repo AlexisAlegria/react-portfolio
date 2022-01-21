@@ -1,125 +1,124 @@
 @import "../../global.scss";
 
 .testimonials {
-    background-color: #4895ef;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: #4895ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include mobile {
+    padding-top: 80px;
+  }
+
+  h1 {
+    font-size: 50px;
 
     @include mobile {
-        padding-top: 40px;
+      font-size: 30px;
+    }
+  }
+
+  .container {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include mobile {
+      flex-direction: column;
+      width: 400px;
+      height: 82%;
     }
 
-    h1{
-        font-size: 50px;
+    .card {
+      width: 250px;
+      height: 60%;
+      border-radius: 10px;
+      box-shadow: 0px 0px 15px -8px black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 20px;
+      transition: all 1s ease;
+      background-color: white;
 
-        @include mobile {
-            font-size: 30px;
-        }
-    }
+      @include mobile {
+        width: 85%;
+        padding: 5px 0px;
+        margin: 10px 0;
+        height: 190px;
+      }
 
-    .container{
-        width: 100%;
-        // height: 90%;
+      // &.featured {
+      //     width: 300px;
+      //     height: 65%;
+      //     margin: 0 30px;
+
+      //     @include mobile {
+      //         width: 90%;
+      //         height: 200px;
+      //         margin: 1px;
+      //     }
+      // }
+
+      &:hover {
+        transform: scale(1.1);
+      }
+
+      .top {
         display: flex;
         align-items: center;
         justify-content: center;
-        
-        @include mobile {
-            // top: 12%;
-            flex-direction: column;
-            width: 400px;
-            height: 100%;
-        }
-        
-        .card{
-            width: 250px;
-            height: 60%;
-            border-radius: 10px;
-            box-shadow: 0px 0px 15px -8px black;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            padding: 20px;
-            transition: all 1s ease;
-            background-color: white;
-            
+
+        img {
+          &.left,
+          &.right {
+            height: 25px;
+          }
+          &.user {
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 30px;
+
             @include mobile {
-                width: 85%;
-                padding: 5px 0px;
-                margin: 10px 0;
-                height: 190px;
+              height: 40px;
+              width: 40px;
             }
-
-            &.featured {
-                width: 300px;
-                height: 65%;
-                margin: 0 30px;
-
-                @include mobile {
-                    width: 90%;
-                    height: 200px;
-                    margin: 1px;
-                }
-            }
-
-            &:hover {
-                transform: scale(1.1);
-            }
-
-            .top {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-
-                img {
-
-                    &.left, &.right {
-                        height: 25px;
-                    }
-                    &.user{
-                        height: 70px;
-                        width: 70px;
-                        border-radius: 50%;
-                        object-fit: cover;
-                        margin: 0 30px;
-
-                        @include mobile{
-                            height: 40px;
-                            width: 40px;
-                        }
-                    }
-                }
-            }
-
-            .center {
-                padding: 10px;
-                border-radius: 10px;
-                background-color: rgb(235,225,227);
-                font-size: 14px;
-            }
-
-            .bottom {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-
-                h3 {
-                    margin-bottom: 5px;
-
-                    @include mobile {
-                        font-size: 16px;
-                    }
-                }
-                h4 {
-                    color: #4895ef;
-
-                    @include mobile {
-                        font-size: 16px;
-                    }
-                }
-            }
+          }
         }
+      }
+
+      .center {
+        padding: 5px;
+        border-radius: 10px;
+        background-color: rgb(235, 225, 227);
+        font-size: 14px;
+      }
+
+      .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h3 {
+          margin-bottom: 5px;
+
+          @include mobile {
+            font-size: 16px;
+          }
+        }
+        h4 {
+          color: #4895ef;
+
+          @include mobile {
+            font-size: 16px;
+          }
+        }
+      }
     }
+  }
 }
