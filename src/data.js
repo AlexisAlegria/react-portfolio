@@ -3,132 +3,133 @@ export const featuredPortfolio = [
     id: 1,
     title: "Final Bootcamp Project",
     img: "./assets/computer.png",
-    url: "https://github.com/AlexisAlegria/4G-final-project-backend"
+    url: "https://github.com/AlexisAlegria/4G-final-project-backend",
   },
   {
     id: 2,
-    title: "Available Box",
+    title: "Coming Soon!",
     img: "./assets/watch-icon-with-coming-soon.jpg",
-    url: "https://google.com"
+    url: "https://google.com",
   },
   {
     id: 3,
-    title: "Available Box",
+    title: "Coming Soon!",
     img: "./assets/watch-icon-with-coming-soon.jpg",
-    url: "https://google.com"
+    url: "https://google.com",
   },
   {
     id: 4,
-    title: "Available Box",
+    title: "Coming Soon!",
     img: "./assets/watch-icon-with-coming-soon.jpg",
-    url: "https://heroku.com"
-  }
+    url: "https://heroku.com",
+  },
 ];
 
 export const webPortfolio = [
   {
     id: 1,
-    title: "Social Media App",
+    title: "My Python Portfolio",
     img: "./assets/code.png",
-    url: "https://google.com"
+    url: "https://alexisalegriav.herokuapp.com/",
   },
   {
     id: 2,
-    title: "Social Media App",
-    img: "./assets/bank-itau.png",
-    url: "https://google.com"
+    title: "Coming Soon!",
+    img: "./assets/watch-icon-with-coming-soon.jpg",
+    url: "https://google.com",
   },
   {
     id: 3,
-    title: "Social Media App",
-    img: "./assets/bank-itau.png",
-    url: "https://google.com"
+    title: "Coming Soon!",
+    img: "./assets/watch-icon-with-coming-soon.jpg",
+
+    url: "https://google.com",
   },
   {
     id: 4,
-    title: "Social Media App",
-    img: "./assets/bank-itau.png",
-    url: "https://google.com"
+    title: "Coming Soon!",
+    img: "./assets/watch-icon-with-coming-soon.jpg",
+    url: "https://google.com",
   },
 ];
 
 export const mobilePortfolio = [
   {
     id: 1,
-    title: "Social Media App",
+    title: "Login/Signup System",
     img: "./assets/programing.png",
-    url: "https://google.com"
+    url: "https://github.com/AlexisAlegria/react-flask-hello",
   },
   {
     id: 2,
-    title: "Social Media App",
-    img: "./assets/bank-itau.png",
-    url: "https://google.com"
+    title: "Coming Soon!",
+    img: "./assets/watch-icon-with-coming-soon.jpg",
+    url: "https://google.com",
   },
   {
     id: 3,
-    title: "Social Media App",
-    img: "./assets/bank-itau.png",
-    url: "https://google.com"
+    title: "Coming Soon!",
+    img: "./assets/watch-icon-with-coming-soon.jpg",
+    url: "https://google.com",
   },
   {
     id: 4,
-    title: "Social Media App",
-    img: "./assets/bank-itau.png",
-    url: "https://google.com"
+    title: "Coming Soon!",
+    img: "./assets/watch-icon-with-coming-soon.jpg",
+    url: "https://google.com",
   },
 ];
 
 export const designPortfolio = [
   {
     id: 1,
-    title: "Social Media App",
+    title: "Coming Soon!",
     img: "./assets/meeting.png",
-    url: "https://google.com"
+    url: "https://google.com",
   },
   {
     id: 2,
-    title: "Social Media App",
-    img: "./assets/bank-itau.png",
-    url: "https://google.com"
+    title: "Coming Soon!",
+    img: "./assets/watch-icon-with-coming-soon.jpg",
+    url: "https://google.com",
   },
   {
     id: 3,
-    title: "Social Media App",
-    img: "./assets/bank-itau.png",
-    url: "https://google.com"
+    title: "Coming Soon!",
+    img: "./assets/watch-icon-with-coming-soon.jpg",
+    url: "https://google.com",
   },
   {
     id: 4,
-    title: "Social Media App",
-    img: "./assets/bank-itau.png",
-    url: "https://google.com"
+    title: "Coming Soon!",
+    img: "./assets/watch-icon-with-coming-soon.jpg",
+    url: "https://google.com",
   },
 ];
 
 export const contentPortfolio = [
   {
     id: 1,
-    title: "Social Media App",
+    title: "Coming Soon!",
     img: "./assets/earth.png",
-    url: "https://google.com"
+    url: "https://google.com",
   },
   {
     id: 2,
-    title: "Social Media App",
-    img: "./assets/bank-itau.png",
-    url: "https://google.com"
+    title: "Coming Soon!",
+    img: "./assets/watch-icon-with-coming-soon.jpg",
+    url: "https://google.com",
   },
   {
     id: 3,
-    title: "Social Media App",
-    img: "./assets/bank-itau.png",
-    url: "https://google.com"
+    title: "Coming Soon!",
+    img: "./assets/watch-icon-with-coming-soon.jpg",
+    url: "https://google.com",
   },
   {
     id: 4,
-    title: "Social Media App",
-    img: "./assets/bank-itau.png",
-    url: "https://google.com"
+    title: "Coming Soon!",
+    img: "./assets/watch-icon-with-coming-soon.jpg",
+    url: "https://google.com",
   },
 ];
