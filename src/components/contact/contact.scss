@@ -1,108 +1,109 @@
 @import "../../global.scss";
 
 .contact {
-    background-color: lightblue;
+  background-color: lightblue;
+  display: flex;
+
+  @include mobile {
+    flex-direction: column;
+  }
+
+  .left {
+    flex: 1;
+    overflow: hidden;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
 
     @include mobile {
-        flex-direction: column;
+      flex: 0.6;
+      align-items: flex-end;
+      padding-bottom: 0;
     }
 
-    .left{
-        flex: 1;
-        overflow: hidden;
-        display: flex;
+    img {
+      height: 40%;
+    }
+  }
+  .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    h1 {
+      @include mobile {
+        font-size: 35px;
+      }
+    }
+
+    @include mobile {
+      flex: 1.4;
+      align-items: center;
+    }
+
+    form {
+      width: 70%;
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 15px;
+
+      @include mobile {
+        width: 90%;
+        height: 90%;
         align-items: center;
-        justify-content: center;
-        padding-bottom: 5%;
+        margin: 0;
+      }
+
+      input {
+        width: 300px;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 10px;
+        margin-top: 15px;
+        padding: 5px 10px;
+        border: 1px solid gray;
 
         @include mobile {
-            flex: 0.6;
-            padding-bottom: 0;
+          margin-top: 10px;
+          height: 30px;
         }
+      }
 
-        img{
-            height: 40%;
-        }
-    }
-    .right{
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
+      textarea {
+        width: 300px;
+        height: 180px;
+        font-size: 15px;
+        border-radius: 10px;
+        margin-top: 15px;
+        padding: 10px 10px;
+        border: 1px solid gray;
+      }
 
-        h1 {
-            @include mobile {
-                font-size: 35px;
-            }
-        }
+      button {
+        width: 150px;
+        height: 30px;
+        color: white;
+        background-color: crimson;
+        border-radius: 10px;
+        border: none;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 15px;
 
         @include mobile {
-            flex: 1.4;
-            align-items: center;
+          height: 40px;
         }
+      }
 
-        form {
-            width: 70%;
-            height: 70%;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            margin-top: 15px;
-            
-            @include mobile {
-                width: 90%;
-                height: 90%;
-                align-items: center;
-                margin: 0;
-            }
-
-            input{
-                width: 300px;
-                height: 30px;
-                font-size: 15px;
-                border-radius: 10px;
-                margin-top: 15px;
-                padding: 5px 10px;
-                border: 1px solid gray;
-
-                @include mobile {
-                    margin-top: 10px;
-                    height: 30px;
-                }
-            }
-
-            textarea {
-                width: 300px;
-                height: 180px;
-                font-size: 15px;
-                border-radius: 10px;
-                margin-top: 15px;
-                padding: 10px 10px;
-                border: 1px solid gray;
-            }
-
-            button {
-                width: 150px;
-                height: 30px;
-                color: white;
-                background-color: crimson;
-                border-radius: 10px;
-                border: none;
-                font-weight: 600;
-                cursor: pointer;
-                margin-top: 15px;
-
-                @include mobile {
-                    height: 40px;
-                }
-            }
-
-            span{
-                margin-top: 15px;
-                color: green;
-            }
-        }
+      span {
+        margin-top: 15px;
+        color: green;
+      }
     }
+  }
 }
