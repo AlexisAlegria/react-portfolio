@@ -8,19 +8,19 @@ export const featuredPortfolio = [
   {
     id: 2,
     title: "Available Box",
-    img: "./assets/bank-itau.png",
+    img: "./assets/watch-icon-with-coming-soon.jpg",
     url: "https://google.com"
   },
   {
     id: 3,
     title: "Available Box",
-    img: "./assets/bank-itau.png",
+    img: "./assets/watch-icon-with-coming-soon.jpg",
     url: "https://google.com"
   },
   {
     id: 4,
     title: "Available Box",
-    img: "./assets/bank-itau.png",
+    img: "./assets/watch-icon-with-coming-soon.jpg",
     url: "https://heroku.com"
   }
 ];
