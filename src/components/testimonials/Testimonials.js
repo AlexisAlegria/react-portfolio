@@ -7,20 +7,21 @@ export default function Testimonials() {
           id: 1,
           name: "Tom Durden",
           title: "Senior Developer",
-          img:
-            "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+          img: "./assets/close-portrait-man.webp",
           icon: "assets/twitter.png",
+          url: "",
           desc:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
         },
         {
           id: 2,
-          name: "Alex Kalinski",
-          title: "Co-Founder of DELKA",
-          img: "./assets/close-portrait-man.webp",
-          icon: "assets/youtube.png",
+          name: "Mauricio del Rio",
+          title: "Tech Lead Patient Service of 1Health",
+          img: "./assets/mauricio-del-rio.jpg",
+          icon: "assets/linkedin.png",
+          url: "https://www.linkedin.com/in/mauricio-del-r%C3%ADo-a4b1a98b/",
           desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+            "Alexis, fue mi alumno igualmente y se desarrollo de una forma excelente en el curso, tomando como desafío una muy entretenida aplicación. Si estás buscando un Jr con una rápida adaptabilidad y muchísimas ganas de aprender, recomiendo enormemente que hablen con él!",
           featured: true,
         },
         {
@@ -30,6 +31,7 @@ export default function Testimonials() {
           img:
             "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
           icon: "assets/linkedin.png",
+          url: "",
           desc:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
         },
@@ -44,7 +46,7 @@ export default function Testimonials() {
                 <div className="top">
                     <img src="./assets/arrow.png" className="left" alt=""/>
                     <img src={d.img} className="user" alt=""/>
-                    <img src={d.icon} className="right" alt=""/>
+                    <a href={d.url} target="_blank"><img src={d.icon} className="right" alt=""/></a>
                 </div>
                 <div className="center">
                     {d.desc}
