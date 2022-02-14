@@ -34,9 +34,9 @@ export const webPortfolio = [
   },
   {
     id: 2,
-    title: "Coming Soon!",
-    img: "./assets/watch-icon-with-coming-soon.jpg",
-    url: "https://google.com",
+    title: "Battleship Game!",
+    img: "./assets/battleship-image.jpg",
+    url: "https://my-battleship-alexis.herokuapp.com/",
   },
   {
     id: 3,
