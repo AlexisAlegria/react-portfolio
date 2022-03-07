@@ -40,10 +40,9 @@ export const webPortfolio = [
   },
   {
     id: 3,
-    title: "Coming Soon!",
-    img: "./assets/watch-icon-with-coming-soon.jpg",
-
-    url: "https://google.com",
+    title: "React Todos App",
+    img: "./assets/todos-screenshot.jpg",
+    url: "https://github.com/AlexisAlegria/React-TODO-app-v2.git",
   },
   {
     id: 4,
