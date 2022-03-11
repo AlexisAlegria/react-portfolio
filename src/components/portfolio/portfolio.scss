@@ -1,5 +1,9 @@
 @import "../../global.scss";
 
+*{
+  border: 1px dashed red;;
+}
+
 .portfolio {
   background-color: white;
   display: flex;
@@ -20,6 +24,7 @@
     padding: 0;
     list-style: none;
     display: flex;
+    justify-content: center;
     text-align: center;
 
     @include mobile {
@@ -30,11 +35,10 @@
   }
 
   .container {
-    width: 70%;
+    // width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 
     @include mobile {
       width: 100%;
@@ -44,7 +48,7 @@
       width: 220px;
       height: 220px;
       border-radius: 20px;
-      //   border: 1px solid lightgray;
+      border: 1px solid lightgray;
       margin: 10px 20px;
       display: flex;
       align-items: center;
