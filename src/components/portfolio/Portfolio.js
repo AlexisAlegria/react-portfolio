@@ -74,6 +74,7 @@ export default function Portfolio() {
       <div className="container">
         {data.map(d => (
           <div className="item">
+            {/* <div className="corner-dot"></div> */}
             <a href={d.url} target="_blank">
               <img src={d.img} alt="img-icon" />
             </a>
