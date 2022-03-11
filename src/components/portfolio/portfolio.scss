@@ -1,8 +1,8 @@
 @import "../../global.scss";
 
-* {
-  border: 1px dashed red;
-}
+// * {
+//   border: 1px dashed red;
+// }
 
 .portfolio-container{
   display: flex;
@@ -90,7 +90,7 @@
         height: 35vh;
 
         @include mobile {
-          height: 20vh;
+          height: 17vh;
         }
       }
 
