@@ -16,10 +16,12 @@
 
     @include mobile {
       font-size: 30px;
+      height: 40px;
     }
   }
 
   ul {
+    height: 110px;
     margin: 0px 20px;
     padding: 0;
     list-style: none;
@@ -42,7 +44,7 @@
 
     @include mobile {
       width: 100%;
-      height: 60vh;
+      height: 80vh;
     }
 
     // .corner-dot {
@@ -58,7 +60,7 @@
       height: 352px;
       border-radius: 20px;
       border: 1px solid lightgray;
-      margin: 10px 20px;
+      margin: 5px 20px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -70,7 +72,7 @@
 
       @include mobile {
         width: 140px;
-        height: 226px;
+        height: 210px;
       }
 
       a {
@@ -80,7 +82,7 @@
         height:35vh;
 
         @include mobile {
-          height: 25vh;
+          height: 20vh;
         }
       }
 
