@@ -34,7 +34,7 @@ export const webPortfolio = [
   },
   {
     id: 2,
-    title: "Battleship Game!",
+    title: "Battleship Game! (for PC)",
     img: "./assets/battleship-image.jpg",
     url: "https://my-battleship-alexis.herokuapp.com/",
   },
