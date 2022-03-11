@@ -1,8 +1,8 @@
 @import "../../global.scss";
 
-*{
-  border: 1px dashed red;;
-}
+// *{
+//   border: 1px dashed red;;
+// }
 
 .portfolio {
   background-color: white;
@@ -39,6 +39,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
     @include mobile {
       width: 100%;
