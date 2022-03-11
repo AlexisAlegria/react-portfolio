@@ -37,6 +37,8 @@
     text-align: center;
 
     @include mobile {
+      height: 80px;
+      margin: 10px 20px;
       flex-wrap: wrap;
       justify-content: center;
       text-align: center;
