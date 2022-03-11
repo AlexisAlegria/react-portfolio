@@ -59,7 +59,7 @@ export default function Portfolio() {
   }, [selected]);
 
   return (
-    <div className="portfolio-container">
+    
       <div className="portfolio" id="portfolio">
         <h1>Portfolio</h1>
         <ul>
@@ -84,6 +84,6 @@ export default function Portfolio() {
           ))}
         </div>
       </div>
-    </div>
+    
   );
 }
