@@ -7,21 +7,21 @@ export const featuredPortfolio = [
   },
   {
     id: 2,
-    title: "Coming Soon!",
-    img: "./assets/watch-icon-with-coming-soon.jpg",
-    url: "https://google.com",
+    title: "Battleship Game! (for PC)",
+    img: "./assets/battleship-image.jpg",
+    url: "https://my-battleship-alexis.herokuapp.com/",
   },
   {
     id: 3,
-    title: "Coming Soon!",
-    img: "./assets/watch-icon-with-coming-soon.jpg",
-    url: "https://google.com",
+    title: "React Todos App",
+    img: "./assets/todos-screenshot.jpg",
+    url: "https://github.com/AlexisAlegria/React-TODO-app-v2.git",
   },
   {
     id: 4,
-    title: "Coming Soon!",
-    img: "./assets/watch-icon-with-coming-soon.jpg",
-    url: "https://heroku.com",
+    title: "Login and Signup Form wit HTML & CSS",
+    img: "./assets/login-signup-form-html-css.jpg",
+    url: "https://github.com/AlexisAlegria/Log-and-Registration-form-HTML-CSS.git",
   },
 ];
 
