@@ -9,7 +9,7 @@ export const featuredPortfolio = [
     id: 2,
     title: "Battleship Game! (for PC)",
     img: "./assets/battleship-image.jpg",
-    url: "https://my-battleship-alexis.herokuapp.com/",
+    url: "https://master.d1bcb1oatmsk21.amplifyapp.com/",
   },
   {
     id: 3,
