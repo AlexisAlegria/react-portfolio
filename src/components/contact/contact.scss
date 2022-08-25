@@ -17,13 +17,13 @@
     padding-bottom: 5%;
 
     @include mobile {
-      flex: 0.4;
+      flex: 0.5;
       align-items: flex-end;
       padding-bottom: 5%;
     }
 
     img {
-      height: 60%;
+      height: 55%;
     }
   }
   .right {
