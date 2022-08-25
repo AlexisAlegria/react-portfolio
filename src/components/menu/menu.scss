@@ -23,7 +23,7 @@
   }
 
   ul {
-    width: 100%;
+    width: 90%;
     margin: 0;
     padding-left: 0;
     list-style: none;
@@ -31,9 +31,13 @@
     color: white;
 
     li {
+      height: 45px;
       margin-bottom: 25px;
       padding-left: 0vw;
       display: flex;
+      border-radius: 12px 0 0 12px;
+      line-height: 45px;
+      transition: all 0.5s ease;
 
       @include mobile {
         padding-left: 0vw;
@@ -44,7 +48,7 @@
         font-size: inherit;
         color: inherit;
         text-decoration: none;
-        padding-left: 3vw;
+        padding-left: 2vw;
 
         @include mobile {
           padding-left: 6vw;
